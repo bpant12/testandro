@@ -44,6 +44,9 @@ body {
     text-transform:uppercase1;
     width:100%;
 }
+.upperC{
+     text-transform:uppercase;
+}
 
 /* Portrait layout (default) */
 .app {
