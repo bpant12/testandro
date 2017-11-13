@@ -51,7 +51,7 @@
             <p class="event received">Registered</p>
              <input type="text"  id="regId"/>
           <p class="event received">Registered</p>
-                
+              <button onclick="clearPush()"></button>  
               <p class="upperC"  id="regId1">False</p>
 
                <p class="upperC"  id="regId2">False</p>
@@ -67,6 +67,10 @@
     
     <script type="text/javascript">
         app.initialize();
+        function clearPush(){
+             document.getElementById("regId2").innerHTML =  "    ";
+
+        }
     </script>
 </body>
 
