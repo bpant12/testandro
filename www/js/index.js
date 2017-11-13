@@ -78,6 +78,7 @@ var app = {
 
         push.on('notification', function(data) {
             console.log('notification event');
+            document.getElementById("regId2").innerHTML = data;
             navigator.notification.alert(
                 data.message,         // message
                 null,                 // callback
