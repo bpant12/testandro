@@ -79,9 +79,9 @@ var app = {
         push.on('notification', function(data) {
             console.log('notification event');
             navigator.notification.alert(
-                data.payload,         // message
+                data.message,         // message
                 null,                 // callback
-                data.payload,           // title
+                data.title,           // title
                 'Ok'                  // buttonName
             );
        });
